@@ -1,4 +1,3 @@
-def square():
-    for i in range(1,21):
-        print(i,"=",i*i)
-square()
+def square(n):
+    print(n * n)
+print(4)
