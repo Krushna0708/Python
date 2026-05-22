@@ -1,0 +1,13 @@
+def power(a,b):
+
+    if b == 0:
+        return 1
+
+    return a* power( a, b - 1 )
+
+a = int(input("Enter The Value :"))
+b = int(input("Enter The Power value :"))
+
+ans = power(a,b)
+print("Answer =",ans)
+
